@@ -42,4 +42,3 @@ def check_single_feed() -> None:
         print(f"Tip will be paid if associated spot price changes {price_threshold/100}%")
     else:
         print("(No tips paid for price moves)")
-
