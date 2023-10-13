@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from datetime import datetime, timezone, timedelta
 from web3 import Web3
 from eth_utils import to_checksum_address
-from autopay_abi import autopay_abi
+from autopay_feed_checker.autopay_abi import autopay_abi
 
 
 load_dotenv()
