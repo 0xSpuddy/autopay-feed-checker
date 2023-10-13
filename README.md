@@ -16,10 +16,10 @@ mv .env.example .env
 ### Setup
 
 ```sh
-python3 -m venv venv
+python3 -m venv env
 ```
 ```sh
-source venv/bin/activate
+source env/bin/activate
 ```
 
 ```sh
@@ -27,9 +27,9 @@ pip install -e .
 ```
 
 ### Usage
-Add your rpc and webhook urls to `.env` file. Update the `INTERVAL` to your desired frequency.
+Add your rpc to the `.env` file.
 
-**To begin monitoring block height**
+**To See Information About a Single Feed**
 ```sh
-monitor
+checkfeed
 ```
